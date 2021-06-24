@@ -11,6 +11,7 @@ export declare enum ChainId {
     FANTOM = 250,
     FANTOM_TESTNET = 4002,
     XDAI = 100,
+    XCHAIN = 35,
     BKC = 96,
     BSC = 56,
     BSC_TESTNET = 97,

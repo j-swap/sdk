@@ -35,6 +35,8 @@ export class Currency {
 
   public static readonly KUB: Currency = new Currency(18, 'KUB', 'BitkubChain')
 
+  public static readonly XCH: Currency = new Currency(18, 'XCH', 'xChain')
+
   public static readonly NATIVE = {
     [ChainId.MAINNET]: Currency.ETHER,
     [ChainId.ROPSTEN]: Currency.ETHER,
@@ -46,6 +48,7 @@ export class Currency {
     [ChainId.MATIC]: Currency.MATIC,
     [ChainId.MATIC_TESTNET]: Currency.MATIC,
     [ChainId.XDAI]: Currency.XDAI,
+    [ChainId.XCHAIN]: Currency.XCH,
     [ChainId.BKC]: Currency.KUB,
     [ChainId.BSC]: Currency.BNB,
     [ChainId.BSC_TESTNET]: Currency.BNB,

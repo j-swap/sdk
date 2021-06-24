@@ -105,6 +105,7 @@ export const WETH = {
     'Wrapped Matic'
   ),
   [ChainId.XDAI]: new Token(ChainId.XDAI, '0xe91D153E0b41518A2Ce8Dd3D7944Fa863463a97d', 18, 'WXDAI', 'Wrapped xDai'),
+  [ChainId.XCHAIN]: new Token(ChainId.XCHAIN, '0x4dD1d9Dd0f3d9C3F6F747F99928C29924A1b42b1', 18, 'WXCH', 'Wrapped XCH'),
   [ChainId.BKC]: new Token(ChainId.BKC, '0x4dD1d9Dd0f3d9C3F6F747F99928C29924A1b42b1', 18, 'WKUB', 'Wrapped KUB'),
   [ChainId.BSC]: new Token(ChainId.BSC, '0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c', 18, 'WBNB', 'Wrapped BNB'),
   [ChainId.BSC_TESTNET]: new Token(
