@@ -19,7 +19,7 @@ export declare class Currency {
     static readonly ONE: Currency;
     static readonly OKT: Currency;
     static readonly KUB: Currency;
-    static readonly XCH: Currency;
+    static readonly XTH: Currency;
     static readonly NATIVE: {
         1: Currency;
         3: Currency;
